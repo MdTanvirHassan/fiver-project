@@ -39,7 +39,7 @@ const Navbar = () => {
             ? "fixed w-full h-20 shadow-md shadow-gray-400 z-[100] ease-in-out duration-300"
             : "fixed w-full h-20 z-[100]"
         }>
-        <div className="flex justify-between items-center w-full h-full px-1 2xl:px-16">
+        <div className="flex justify-start space-x-8 items-center w-full h-full px-1 2xl:px-16">
           {/* <Link href="/">
             <div className="mx-20 flex space-x-2"
                 style={{ backgroundColor: `${shadow}` }}>
@@ -54,7 +54,7 @@ const Navbar = () => {
           <div>
             <ul
               style={{ color: `${linkColor}` }}
-              className="hidden md:flex space-x-8 mx-20">
+              className="hidden md:flex space-x-8 mx-24">
               <li className="ml-7 text-md uppercase navHover">
                 <Link href="/">Home</Link>
               </li>

@@ -10,7 +10,7 @@ import slider from "../public/assets/banner.jpg";
 const BestSelling = () => {
   return (
     <div id="BestSelling" className="">
-            <div className="px-8 py-8  mx-auto">
+            <div className=" py-8  mx-auto">
                 <div className=" mb-5">
                     <h2 className="text-3xl">
                         Best Selling

@@ -18,20 +18,19 @@ const Banner = () => {
           <h2 className="py-2 text-center text-6xl font-extrabold leading-10 tracking-normal">
             Best Place for Unfinished Games
           </h2>
-          <p className="text-center py-6">
+          <p className="text-center py-10">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
             corporis in error?
           </p>
-          <div className="text-center">
-            <button class="relative inline-flex items-center justify-center p-0.5 px-10 mb-2 mr-2 overflow-hidden text-sm font-medium text-white rounded-full group bg-gradient-to-br from-transparent to-transparent group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-cyan-500 border-2 border-cyan-500">
-              <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-transparent ">
-                Sign Up
-              </span>
+          <div className="text-center px-24 md:px-96 grid md:grid-cols-2  gap-4">
+            
+            <button className="relative text-white bg-transparent  border-2 border-cyan-700 hover:border-none focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2
+             before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-cyan-700 before:transition-transform before:duration-300 before:rounded-full hover:text-white before:hover:scale-x-100">
+                 Sign Up
             </button>
-            <button class="relative inline-flex items-center justify-center p-0.5 px-10 mb-2 mr-2 overflow-hidden text-sm font-medium text-white rounded-full group bg-gradient-to-br from-transparent to-transparent group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-cyan-500 border-2 border-cyan-500">
-              <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-transparent ">
-                Log In
-              </span>
+            <button className="relative text-white bg-transparent  border-2 border-cyan-700 hover:border-none focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2
+             before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-cyan-700 before:transition-transform before:duration-300 before:rounded-full hover:text-white before:hover:scale-x-100">
+                 Log In
             </button>
             
           </div>

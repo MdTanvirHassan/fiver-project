@@ -36,16 +36,12 @@ html {
    }
 
   button {
-    @apply shadow-md shadow-gray-400 rounded-xl uppercase 
+    @apply uppercase 
   }
 }
 
 @layer components{
 
-.banner {
-  background-image: url('../public/assets/banner.jpg');
-  @apply bg-cover bg-no-repeat mt-0 pt-[460px] pb-[100px] object-fill object-center w-full h-screen
-}
 .navHover{
   @apply relative text-sm font-thin uppercase
 }
@@ -55,7 +51,6 @@ html {
 .navHover:hover::after{
   @apply w-[100%]
 }
-
 
 }
 
