@@ -23,7 +23,6 @@ const BestSelling = () => {
               slidesPerView: 4,
             },
           }}
-          //slidesPerView={4}
           centeredSlides={false}
           spaceBetween={50}
           pagination={{
@@ -35,7 +34,7 @@ const BestSelling = () => {
 
           <SwiperSlide>
             <div className="relative flex items-center justify-center h-auto w-full rounded-md">
-              <a className=" group " href="/#">
+              <a className=" group " href="/#product">
                 <Image
                   src={slider}
                   alt=".."
@@ -51,7 +50,7 @@ const BestSelling = () => {
                   </p>
                   <h3 className="text-xl tracking-wider font-extrabold">$20</h3>
                 </div>
-                <div className="hidden group-hover:block absolute top-[75%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full">
+                <div className="hidden group-hover:block absolute top-[70%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full">
                   <div className=" justify-center items-center text-center w-full">
                     <button className="px-16  py-2 rounded-md text-sm  bg-white  border border-gray-200 hover:bg-red-400 hover:text-white ">
                       Add to wishlist
@@ -64,7 +63,7 @@ const BestSelling = () => {
 
           <SwiperSlide>
             <div className="relative flex items-center justify-center h-auto w-full rounded-md">
-              <a className=" group group-hover:bg-none " href="/#">
+              <a className=" group group-hover:bg-none " href="/#product">
                 <Image
                   src={slider2}
                   alt=".."
@@ -93,7 +92,7 @@ const BestSelling = () => {
 
           <SwiperSlide>
             <div className="relative flex items-center justify-center h-auto w-full rounded-md">
-              <a className=" group group-hover:bg-none " href="/#">
+              <a className=" group group-hover:bg-none " href="/#product">
                 <Image
                   src={slider3}
                   alt=".."
@@ -122,7 +121,7 @@ const BestSelling = () => {
 
           <SwiperSlide>
             <div className="relative flex items-center justify-center h-auto w-full rounded-md">
-              <a className=" group group-hover:bg-none " href="/#">
+              <a className=" group group-hover:bg-none " href="/#product">
                 <Image
                   src={slider4}
                   alt=".."
@@ -151,7 +150,7 @@ const BestSelling = () => {
 
           <SwiperSlide>
             <div className="relative flex items-center justify-center h-auto w-full rounded-md">
-              <a className=" group group-hover:bg-none " href="/#">
+              <a className=" group group-hover:bg-none " href="/#product">
                 <Image
                   src={slider2}
                   alt=".."
@@ -180,7 +179,7 @@ const BestSelling = () => {
 
           <SwiperSlide>
             <div className="relative flex items-center justify-center h-auto w-full rounded-md">
-              <a className=" group group-hover:bg-none " href="/#">
+              <a className=" group group-hover:bg-none " href="/#product">
                 <Image
                   src={slider3}
                   alt=".."
