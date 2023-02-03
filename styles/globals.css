@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply  tracking-wide
+     /* bg-[#000000] text-[#ecf0f3] */
+    /* bg-[#ecf0f3] text-[#1f2937] */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway]
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl
+  }
+  
+  p{
+    @apply tracking-normal
+  }
+  li {
+    @apply cursor-pointer
+   }
+
+  button {
+    @apply shadow-md shadow-gray-400 rounded-xl uppercase 
+  }
+}
+
+@layer components{
+
+.banner {
+  background-image: url('../public/assets/banner.jpg');
+  @apply bg-cover bg-no-repeat mt-0 pt-[460px] pb-[100px] object-fill object-center w-full h-screen
+}
+.navHover{
+  @apply relative text-sm font-thin uppercase
+}
+.navHover::after{
+  @apply content-[''] bg-cyan-500 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-700
+}
+.navHover:hover::after{
+  @apply w-[100%]
+}
+
+
+}
+
+
+
+@import 'swiper/css';
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import 'swiper/css/navigation';

@@ -2,14 +2,12 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { BsSearch } from "react-icons/bs";
-
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("transparent");
-  const [linkColor, setLinkColor] = useState("#000000");
+  const [linkColor, setLinkColor] = useState("#ffffff");
   // const [position, setPosition] = useState('fixed')
  
 
@@ -22,12 +20,10 @@ const Navbar = () => {
       if (window.scrollY >= 40) {
         setShadow(true);
         setNavBg("#ffffff");
-        setNavBanner(false);
         setLinkColor("#000000");
       } else {
         setShadow(false);
         setNavBg("transparent");
-        setNavBanner(true);
         setLinkColor("#ffffff");
       }
     };
@@ -47,17 +43,7 @@ const Navbar = () => {
           {/* <Link href="/">
             <div className="mx-20 flex space-x-2"
                 style={{ backgroundColor: `${shadow}` }}>
-              <Image
-                src={NavLogo}
-                alt="/"
-                width="140"
-                height="40"
-                className={
-                  shadow
-                    ? "cursor-pointer bg-gray-200 px-1 py-2 rounded-md"
-                    : "cursor-pointer"
-                }
-              />
+              
                <h3
                 className="text-white font-bold text-xl"
                 style={{ color: `${linkColor}` }}>
@@ -68,27 +54,25 @@ const Navbar = () => {
           <div>
             <ul
               style={{ color: `${linkColor}` }}
-              className="hidden md:flex space-x-8 mx-10">
-              <li className="ml-7 text-sm uppercase ">
+              className="hidden md:flex space-x-8 mx-20">
+              <li className="ml-7 text-md uppercase navHover">
                 <Link href="/">Home</Link>
               </li>
-              <li className="ml-7 text-sm uppercase ">
-                <Link href="/#company">Company</Link>
+              <li className="ml-7  uppercase navHover">
+                <Link href="/#company">UNREAL ENGINE</Link>
               </li>
-              <li className="ml-7 text-sm uppercase ">
-                <Link href="/#services">Services</Link>
+              <li className="ml-7  uppercase navHover">
+                <Link href="/#UNITY">UNITY</Link>
               </li>
-              <li className="ml-7 text-sm uppercase ">
-                <Link href="/#blogs">Blogs</Link>
+              <li className="ml-7  uppercase navHover">
+                <Link href="/#GODOT">GODOT</Link>
               </li>
 
-              <li className="ml-7 text-sm uppercase ">
+              <li className="ml-7  uppercase navHover">
                 <Link href="/#newsletter">Contact</Link>
               </li>
-              <li className="ml-7 text-sm uppercase ">
-                <Link href="/search">
-                  <BsSearch className="text-lg" />
-                </Link>
+              <li className="ml-7  uppercase navHover">
+                <Link href="/about">About Us</Link>
               </li>
             </ul>
             {/* Hamburger Icon */}
@@ -142,34 +126,34 @@ const Navbar = () => {
             <div className="py-4 flex flex-col">
               <ul className="uppercase">
                 <Link href="/">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm uppercase">
                     Home
                   </li>
                 </Link>
                 <Link href="/#company">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
-                    Company
+                  <li onClick={() => setNav(false)} className="py-4 text-sm uppercase">
+                  UNREAL ENGINE
                   </li>
                 </Link>
-                <Link href="/#services">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
-                    Services
+                <Link href="/#UNITY">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm uppercase">
+                  UNITY
                   </li>
                 </Link>
-                <Link href="/#blogs">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
-                    Blogs
+                <Link href="/#GODOTS">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm uppercase">
+                    GODOT
                   </li>
                 </Link>
 
                 <Link href="/#contact">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm uppercase">
                     Contact
                   </li>
                 </Link>
-                <Link href="/#search">
-                  <li onClick={() => setNav(false)} className="py-4 text-sm">
-                    Search
+                <Link href="/#about">
+                  <li onClick={() => setNav(false)} className="py-4 text-sm uppercase">
+                    About Us
                   </li>
                 </Link>
               </ul>
