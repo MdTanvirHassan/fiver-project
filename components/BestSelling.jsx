@@ -17,13 +17,13 @@ const BestSelling = () => {
         <Swiper
           breakpoints={{
             576: {
-              slidesPerView: 3,
+              slidesPerView: 1,
             },
             768: {
               slidesPerView: 4,
             },
           }}
-          slidesPerView={4}
+          //slidesPerView={4}
           centeredSlides={false}
           spaceBetween={50}
           pagination={{
@@ -35,7 +35,7 @@ const BestSelling = () => {
 
           <SwiperSlide>
             <div className="relative flex items-center justify-center h-auto w-full rounded-md">
-              <a className=" group group-hover:bg-none " href="/#">
+              <a className=" group " href="/#">
                 <Image
                   src={slider}
                   alt=".."
