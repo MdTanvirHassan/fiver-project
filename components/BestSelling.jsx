@@ -10,7 +10,7 @@ import slider4 from "../public/assets/card10.jpg";
 const BestSelling = () => {
   return (
     <div id="BestSelling" className="m-0 p-0">
-      <div className="py-8 mx-5">
+      <div className="py-8 pt-24 mx-5">
         <div className="mb-5">
           <h2 className="text-3xl text-center">Best Selling</h2>
         </div>

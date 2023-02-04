@@ -5,8 +5,8 @@ import Image from "next/image";
 const Banner = () => {
   return (
     <div id="banner" className="w-full m-0 p-0">
-      <div className="w-screen h-screen relative">
-        <div className="absolute top-0 left-0 w-full h-screen bg-black/70 z-10" />
+      <div className="w-full h-screen relative">
+        <div className="absolute top-0 left-0 w-full h-full bg-black/70 z-10" />
         <Image
           className="absolute z-1"
           layout="fill"
