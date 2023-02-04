@@ -15,7 +15,7 @@ const Banner = () => {
           alt="/"
         />
         <div className="absolute top-[50%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 ">
-          <h2 className="pt-10 text-center text-6xl font-extrabold leading-10 tracking-wider">
+          <h2 className="pt-10 text-center text-2xl md:text-6xl font-extrabold leading-10 tracking-wider">
             Best Place for Unfinished Games
           </h2>
           <p className="text-center pt-10">

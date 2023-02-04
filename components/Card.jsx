@@ -13,7 +13,7 @@ import { AiFillPrinter, AiOutlineHeart, AiOutlineSearch } from "react-icons/ai";
 const Card = () => {
   return (
     <div>
-      <div className="grid md:grid-cols-3 gap-2 mx-4 py-5 2xl:mt-32">
+      <div className="grid md:grid-cols-3 gap-10 mx-4 py-5 2xl:mt-32">
         {/* span-1 */}
 
         <div className="mx-1 w-full relative">
@@ -35,8 +35,8 @@ const Card = () => {
           </div>
         </div>
         {/* span-2 */}
-        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-2">
-          <div className="bg-white shadow-lg shadow-gray-400 p-2 w-full md:flex mx-2">
+        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-10">
+          <div className="bg-white shadow-lg  p-2 w-full md:flex mx-2">
             <div className="w-full mx-auto">
               <Image src={box} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
@@ -46,19 +46,19 @@ const Card = () => {
               </p>
               <h3>$89.00</h3>
               <div className="flex space-x-3 pt-1 px-2">
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300  bg-black">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300  bg-black">
                   <a href="/#icon" className="">
                     <AiFillPrinter className="text-2xl text-white" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineHeart className="text-2xl" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineSearch className="text-2xl" />
                   </a>
@@ -67,7 +67,7 @@ const Card = () => {
             </div>
           </div>
 
-          <div className="bg-white shadow-lg shadow-gray-400 p-2 w-full md:flex mx-2">
+          <div className="bg-white shadow-lg  p-2 w-full md:flex mx-2">
             <div className="w-full mx-auto">
               <Image src={box2} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
@@ -77,19 +77,19 @@ const Card = () => {
               </p>
               <h3>$89.00</h3>
               <div className="flex space-x-3 pt-1 px-2">
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300  bg-black">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300  bg-black">
                   <a href="/#icon" className="">
                     <AiFillPrinter className="text-2xl text-white" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineHeart className="text-2xl" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineSearch className="text-2xl" />
                   </a>
@@ -99,8 +99,8 @@ const Card = () => {
           </div>
         </div>
         {/* span-3 */}
-        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-2">
-          <div className="bg-white shadow-lg shadow-gray-400 p-2 w-full md:flex mx-2">
+        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-10">
+          <div className="bg-white shadow-lg  p-2 w-full md:flex mx-2">
             <div className="w-full mx-auto">
               <Image src={box3} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
@@ -110,19 +110,19 @@ const Card = () => {
               </p>
               <h3>$89.00</h3>
               <div className="flex space-x-3 pt-1 px-2">
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300  bg-black">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300  bg-black">
                   <a href="/#icon" className="">
                     <AiFillPrinter className="text-2xl text-white" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineHeart className="text-2xl" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineSearch className="text-2xl" />
                   </a>
@@ -131,7 +131,7 @@ const Card = () => {
             </div>
           </div>
 
-          <div className="bg-white shadow-lg shadow-gray-400 p-2 w-full md:flex mx-2">
+          <div className="bg-white shadow-lg  p-2 w-full md:flex mx-2">
             <div className="w-full mx-auto">
               <Image src={box4} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
@@ -141,19 +141,19 @@ const Card = () => {
               </p>
               <h3>$89.00</h3>
               <div className="flex space-x-3 pt-1 px-2">
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300  bg-black">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300  bg-black">
                   <a href="/#icon" className="">
                     <AiFillPrinter className="text-2xl text-white" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineHeart className="text-2xl" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineSearch className="text-2xl" />
                   </a>
@@ -167,7 +167,7 @@ const Card = () => {
       {/*//todo ------card2--------- */}
 
 
-      <div className="grid md:grid-cols-3 gap-2 mx-4 py-5">
+      <div className="grid md:grid-cols-3 gap-10 mx-4 py-10">
         {/* span-1 */}
 
         <div className="mx-1 w-full relative">
@@ -189,8 +189,8 @@ const Card = () => {
           </div>
         </div>
         {/* span-2 */}
-        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-2">
-          <div className="bg-white shadow-lg shadow-gray-400 p-2 w-full md:flex mx-2">
+        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-10">
+          <div className="bg-white shadow-lg  p-2 w-full md:flex mx-2">
             <div className="w-full mx-auto">
               <Image src={box5} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
@@ -200,19 +200,19 @@ const Card = () => {
               </p>
               <h3>$89.00</h3>
               <div className="flex space-x-3 pt-1 px-2">
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300  bg-black">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300  bg-black">
                   <a href="/#icon" className="">
                     <AiFillPrinter className="text-2xl text-white" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineHeart className="text-2xl" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineSearch className="text-2xl" />
                   </a>
@@ -221,7 +221,7 @@ const Card = () => {
             </div>
           </div>
 
-          <div className="bg-white shadow-lg shadow-gray-400 p-2 w-full md:flex mx-2">
+          <div className="bg-white shadow-lg  p-2 w-full md:flex mx-2">
             <div className="w-full mx-auto">
               <Image src={box6} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
@@ -231,19 +231,19 @@ const Card = () => {
               </p>
               <h3>$89.00</h3>
               <div className="flex space-x-3 pt-1 px-2">
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300  bg-black">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300  bg-black">
                   <a href="/#icon" className="">
                     <AiFillPrinter className="text-2xl text-white" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineHeart className="text-2xl" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineSearch className="text-2xl" />
                   </a>
@@ -253,10 +253,10 @@ const Card = () => {
           </div>
         </div>
         {/* span-3 */}
-        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-2">
-          <div className="bg-white shadow-lg shadow-gray-400 p-2 w-full md:flex mx-2">
+        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-10">
+          <div className="bg-white shadow-lg  p-2 w-full md:flex mx-2">
             <div className="w-full mx-auto">
-              <Image src={box} width={150} height={150} alt=".." className="hover:scale-105"/>
+              <Image src={box7} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
             <div className="w-full text-sm pt-2">
               <p className="text-lg font-bold">
@@ -264,19 +264,19 @@ const Card = () => {
               </p>
               <h3>$89.00</h3>
               <div className="flex space-x-3 pt-1 px-2">
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300  bg-black">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300  bg-black">
                   <a href="/#icon" className="">
                     <AiFillPrinter className="text-2xl text-white" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineHeart className="text-2xl" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineSearch className="text-2xl" />
                   </a>
@@ -285,9 +285,9 @@ const Card = () => {
             </div>
           </div>
 
-          <div className="bg-white shadow-lg shadow-gray-400 p-2 w-full md:flex mx-2">
+          <div className="bg-white shadow-lg  p-2 w-full md:flex mx-2">
             <div className="w-full mx-auto">
-              <Image src={box} width={150} height={150} alt=".." className="hover:scale-105"/>
+              <Image src={box8} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
             <div className="w-full text-sm pt-2">
               <p className="text-lg font-bold">
@@ -295,19 +295,19 @@ const Card = () => {
               </p>
               <h3>$89.00</h3>
               <div className="flex space-x-3 pt-1 px-2">
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300  bg-black">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300  bg-black">
                   <a href="/#icon" className="">
                     <AiFillPrinter className="text-2xl text-white" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineHeart className="text-2xl" />
                   </a>
                 </span>
 
-                <span className="p-2 rounded-md shadow-md shadow-gray-400 hover:bg-gray-300 ">
+                <span className="p-2 rounded-md shadow-md  hover:bg-gray-300 ">
                   <a href="/#icon" className="">
                     <AiOutlineSearch className="text-2xl" />
                   </a>

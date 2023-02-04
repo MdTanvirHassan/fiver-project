@@ -50,9 +50,9 @@ const BestSelling = () => {
                   </p>
                   <h3 className="text-xl tracking-wider font-extrabold">$20</h3>
                 </div>
-                <div className="hidden group-hover:block absolute top-[75%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full">
+                <div className="hidden group-hover:block absolute top-[73%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full">
                   <div className=" justify-center items-center text-center w-full">
-                    <button className="px-16  py-2 rounded-md text-sm  bg-white  border border-gray-200 hover:bg-red-400 hover:text-white ">
+                    <button className="px-14  py-2 rounded-md text-sm  bg-white  border border-gray-200 hover:bg-red-400 hover:text-white ">
                       Add to wishlist
                     </button>
                   </div>
@@ -79,9 +79,9 @@ const BestSelling = () => {
                   </p>
                   <h3 className="text-xl tracking-wider font-extrabold">$20</h3>
                 </div>
-                <div className="hidden group-hover:block absolute top-[75%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full">
+                <div className="hidden group-hover:block absolute top-[73%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full">
                   <div className=" justify-center items-center text-center w-full">
-                    <button className="px-16  py-2 rounded-md text-sm  bg-white  border border-gray-200 hover:bg-red-400 hover:text-white ">
+                    <button className="px-14  py-2 rounded-md text-sm  bg-white  border border-gray-200 hover:bg-red-400 hover:text-white ">
                       Add to wishlist
                     </button>
                   </div>
@@ -108,9 +108,9 @@ const BestSelling = () => {
                   </p>
                   <h3 className="text-xl tracking-wider font-extrabold">$20</h3>
                 </div>
-                <div className="hidden group-hover:block absolute top-[75%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full">
+                <div className="hidden group-hover:block absolute top-[73%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full">
                   <div className=" justify-center items-center text-center w-full">
-                    <button className="px-16  py-2 rounded-md text-sm  bg-white  border border-gray-200 hover:bg-red-400 hover:text-white ">
+                    <button className="px-14  py-2 rounded-md text-sm  bg-white  border border-gray-200 hover:bg-red-400 hover:text-white ">
                       Add to wishlist
                     </button>
                   </div>
@@ -137,9 +137,9 @@ const BestSelling = () => {
                   </p>
                   <h3 className="text-xl tracking-wider font-extrabold">$20</h3>
                 </div>
-                <div className="hidden group-hover:block absolute top-[75%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full">
+                <div className="hidden group-hover:block absolute top-[73%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full">
                   <div className=" justify-center items-center text-center w-full">
-                    <button className="px-16  py-2 rounded-md text-sm  bg-white  border border-gray-200 hover:bg-red-400 hover:text-white ">
+                    <button className="px-14  py-2 rounded-md text-sm  bg-white  border border-gray-200 hover:bg-red-400 hover:text-white ">
                       Add to wishlist
                     </button>
                   </div>
@@ -166,9 +166,9 @@ const BestSelling = () => {
                   </p>
                   <h3 className="text-xl tracking-wider font-extrabold">$20</h3>
                 </div>
-                <div className="hidden group-hover:block absolute top-[75%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full">
+                <div className="hidden group-hover:block absolute top-[73%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full">
                   <div className=" justify-center items-center text-center w-full">
-                    <button className="px-16  py-2 rounded-md text-sm  bg-white  border border-gray-200 hover:bg-red-400 hover:text-white ">
+                    <button className="px-14  py-2 rounded-md text-sm  bg-white  border border-gray-200 hover:bg-red-400 hover:text-white ">
                       Add to wishlist
                     </button>
                   </div>
@@ -195,9 +195,9 @@ const BestSelling = () => {
                   </p>
                   <h3 className="text-xl tracking-wider font-extrabold">$20</h3>
                 </div>
-                <div className="hidden group-hover:block absolute top-[75%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full">
+                <div className="hidden group-hover:block absolute top-[73%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full">
                   <div className=" justify-center items-center text-center w-full">
-                    <button className="px-16  py-2 rounded-md text-sm  bg-white  border border-gray-200 hover:bg-red-400 hover:text-white ">
+                    <button className="px-14  py-2 rounded-md text-sm  bg-white  border border-gray-200 hover:bg-red-400 hover:text-white ">
                       Add to wishlist
                     </button>
                   </div>

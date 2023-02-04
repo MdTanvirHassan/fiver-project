@@ -10,7 +10,7 @@ const Footer = () => {
         <div className=" px-5 pt-12 mx-auto gap-1 md:gap-5 grid md:grid-cols-4  md:items-center  pb-8  ">
           <div className="mt-5 justify-center text-center items-center md:mt-0 md:text-left">
             <div className=" px-4">
-              <Image src={logo} className="ml-[35%] md:ml-0" />
+              <Image src={logo} className="ml-[35%] md:ml-0" alt='...' />
               <p className="pt-2">contact@example.com</p>
               <p>+1-541-754-3010</p>
             </div>
@@ -90,12 +90,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="bg-gray-100 text-black">
-          <div class=" mx-auto py-6 px-5 flex flex-wrap flex-col sm:flex-row">
-            <p class="text-gray-600 text-md text-center sm:text-left px-4 tracking-wide">
+        <div className="bg-gray-100 text-black">
+          <div className=" mx-auto py-6 px-5 flex flex-wrap flex-col sm:flex-row">
+            <p className="text-gray-600 text-md text-center sm:text-left px-4 tracking-wide">
               iBid Auctions Theme by Model Theme | Copyright © 2020
             </p>
-            <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-600 text-md tracking-wide">
+            <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-600 text-md tracking-wide">
               Elite Author on ThemeForest.
             </span>
           </div>

@@ -5,9 +5,9 @@ const Frame = () => {
     <div>
       <section className="text-gray-200 relative block">
         <div className="px-10 py-24 lg:py-36 mx-auto ">
-          <div className="grid md:grid-cols-2 gap-20 md:gap-1 2xl:gap-10 md:-m-2 -m-1">
-
-            <div className="grid md:grid-rows-2 gap-6 md:gap-1 2xl:gap-4 ">
+          <div className="grid md:grid-cols-2 gap-20 md:gap-1 2xl:gap-1 md:-m-2 -m-1">
+                {/* ---------left------- */}
+            <div className="grid md:grid-rows-2 gap-6 md:gap-1 2xl:gap-1 ">
                 <div className="md:p-2 p-1 relative">
                 <a href="/#frame">
                   <div className="absolute w-full">
@@ -31,7 +31,7 @@ const Frame = () => {
               
 
               <a href="/#frame">
-                <div className="md:p-2 p-1 w-full relative md:-mt-28 2xl:mt-0">
+                <div className="md:p-2 p-1 w-full relative md:-mt-[120px] 2xl:-mt-4">
                   <div className="absolute w-full">
                     <img
                       alt="gallery"
@@ -54,7 +54,7 @@ const Frame = () => {
 
 
             {/* ----------right------ */}
-            <div className="grid md:grid-rows-2 gap-20 md:gap-5 2xl:gap-10">
+            <div className="grid md:grid-rows-2 gap-20 md:gap-1 2xl:gap-1">
               <a href="/#frame">
                 <div className="md:p-2 p-1 w-full relative">
                   <div className="absolute w-full">
@@ -77,7 +77,7 @@ const Frame = () => {
               </a>
 
               <a href="/#frame">
-                <div className="md:p-2 p-1 relative 2xl:mt-44">
+                <div className="md:p-2 p-1 relative 2xl:mt-[184px]">
                   <div className="absolute w-full">
                     <img
                       alt="gallery"
