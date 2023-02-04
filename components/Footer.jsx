@@ -10,7 +10,7 @@ const Footer = () => {
         <div className=" px-5 pt-12 mx-auto gap-1 md:gap-5 grid md:grid-cols-4  md:items-center  pb-8  ">
           <div className="mt-5 justify-center text-center items-center md:mt-0 md:text-left">
             <div className=" px-4">
-              <Image src={logo} />
+              <Image src={logo} className="ml-[35%] md:ml-0" />
               <p className="pt-2">contact@example.com</p>
               <p>+1-541-754-3010</p>
             </div>
@@ -20,8 +20,8 @@ const Footer = () => {
               <h3 className="font-bold  text-xl  mb-2 text-black">
                 Usefull Links
               </h3>
-              <nav className="list-none ">
-                <li>
+              <nav className="list-none">
+                <li className="">
                   <a className=" text-md hover:text-gray-800 flex space-x-2 ">
                     <BiChevronsRight className="font-extrabold text-xl" />{" "}
                     Mobile Phone
