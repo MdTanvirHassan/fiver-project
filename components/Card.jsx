@@ -13,7 +13,7 @@ import { AiFillPrinter, AiOutlineHeart, AiOutlineSearch } from "react-icons/ai";
 const Card = () => {
   return (
     <div>
-      <div className="grid md:grid-cols-3 gap-10 mx-4 py-5 2xl:mt-32">
+      <div className="grid md:grid-cols-3 gap-2 md:gap-10 mx-4 py-5 2xl:mt-32">
         {/* span-1 */}
 
         <div className="mx-1 w-full relative">
@@ -35,13 +35,13 @@ const Card = () => {
           </div>
         </div>
         {/* span-2 */}
-        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-2 md:gap-10">
           <div className="bg-white shadow-lg  p-2 w-full md:flex mx-2">
             <div className="w-full mx-auto">
               <Image src={box} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
-            <div className="w-full text-sm pt-2">
-              <p className="text-lg font-bold">
+            <div className="w-full md:pt-2 ">
+              <p className="text-md md:text-lg font-bold py-2">
                 LockBox Storage Midtown LockBox Storage Midtown
               </p>
               <h3>$89.00</h3>
@@ -71,8 +71,8 @@ const Card = () => {
             <div className="w-full mx-auto">
               <Image src={box2} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
-            <div className="w-full text-sm pt-2">
-              <p className="text-lg font-bold">
+            <div className="w-full md:pt-2 ">
+              <p className="text-md md:text-lg font-bold py-2">
                 LockBox Storage Midtown LockBox Storage Midtown
               </p>
               <h3>$89.00</h3>
@@ -99,13 +99,13 @@ const Card = () => {
           </div>
         </div>
         {/* span-3 */}
-        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-2 md:gap-10">
           <div className="bg-white shadow-lg  p-2 w-full md:flex mx-2">
             <div className="w-full mx-auto">
               <Image src={box3} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
-            <div className="w-full text-sm pt-2">
-              <p className="text-lg font-bold">
+            <div className="w-full md:pt-2 ">
+              <p className="text-md md:text-lg font-bold py-2">
                 LockBox Storage Midtown LockBox Storage Midtown
               </p>
               <h3>$89.00</h3>
@@ -135,8 +135,8 @@ const Card = () => {
             <div className="w-full mx-auto">
               <Image src={box4} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
-            <div className="w-full text-sm pt-2">
-              <p className="text-lg font-bold">
+            <div className="w-full md:pt-2 ">
+              <p className="text-md md:text-lg font-bold py-2">
                 LockBox Storage Midtown LockBox Storage Midtown
               </p>
               <h3>$89.00</h3>
@@ -167,7 +167,7 @@ const Card = () => {
       {/*//todo ------card2--------- */}
 
 
-      <div className="grid md:grid-cols-3 gap-10 mx-4 py-10">
+      <div className="grid md:grid-cols-3 gap-2 md:gap-10 mx-4 py-10">
         {/* span-1 */}
 
         <div className="mx-1 w-full relative">
@@ -189,13 +189,13 @@ const Card = () => {
           </div>
         </div>
         {/* span-2 */}
-        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-2 md:gap-10">
           <div className="bg-white shadow-lg  p-2 w-full md:flex mx-2">
             <div className="w-full mx-auto">
               <Image src={box5} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
-            <div className="w-full text-sm pt-2">
-              <p className="text-lg font-bold">
+            <div className="w-full md:pt-2 ">
+              <p className="text-md md:text-lg font-bold py-2">
                 LockBox Storage Midtown LockBox Storage Midtown
               </p>
               <h3>$89.00</h3>
@@ -225,8 +225,8 @@ const Card = () => {
             <div className="w-full mx-auto">
               <Image src={box6} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
-            <div className="w-full text-sm pt-2">
-              <p className="text-lg font-bold">
+            <div className="w-full md:pt-2 ">
+              <p className="text-md md:text-lg font-bold py-2">
                 LockBox Storage Midtown LockBox Storage Midtown
               </p>
               <h3>$89.00</h3>
@@ -253,13 +253,13 @@ const Card = () => {
           </div>
         </div>
         {/* span-3 */}
-        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-10">
+        <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-2 gap-2 md:gap-10">
           <div className="bg-white shadow-lg  p-2 w-full md:flex mx-2">
             <div className="w-full mx-auto">
               <Image src={box7} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
-            <div className="w-full text-sm pt-2">
-              <p className="text-lg font-bold">
+            <div className="w-full md:pt-2 ">
+              <p className="text-md md:text-lg font-bold py-2">
                 LockBox Storage Midtown LockBox Storage Midtown
               </p>
               <h3>$89.00</h3>
@@ -289,8 +289,8 @@ const Card = () => {
             <div className="w-full mx-auto">
               <Image src={box8} width={150} height={150} alt=".." className="hover:scale-105"/>
             </div>
-            <div className="w-full text-sm pt-2">
-              <p className="text-lg font-bold">
+            <div className="w-full md:pt-2 ">
+              <p className="text-md md:text-lg font-bold py-2">
                 LockBox Storage Midtown LockBox Storage Midtown
               </p>
               <h3>$89.00</h3>
