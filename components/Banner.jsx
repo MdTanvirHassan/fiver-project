@@ -24,12 +24,12 @@ const Banner = () => {
           </p>
           <div className="text-center pt-14 px-24 md:px-96 grid md:grid-cols-2  gap-4">
             
-            <button className="relative text-white bg-transparent  border-2 border-cyan-700 hover:border-none focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-3 text-center mr-2 mb-2
-             before:absolute before:rounded-full  before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-cyan-700 before:transition-transform before:duration-700 hover:text-white before:hover:scale-x-100">
+            <button className="relative text-white bg-transparent  border-2 border-[#009688] hover:border-none focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-3 text-center mr-2 mb-2
+             before:absolute before:rounded-full  before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#009688] before:transition-transform before:duration-1000 hover:text-white before:hover:scale-x-100">
                  Sign Up
             </button>
-            <button className="relative text-white bg-transparent  border-2 border-cyan-700 hover:border-none focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-3 text-center mr-2 mb-2
-             before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-cyan-700 before:transition-transform before:duration-700 before:rounded-full hover:text-white before:hover:scale-x-100">
+            <button className="relative text-white bg-transparent  border-2 border-[#009688] hover:border-none focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-3 text-center mr-2 mb-2
+             before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-[#009688] before:transition-transform before:duration-1000 before:rounded-full hover:text-white before:hover:scale-x-100">
                  Log In
             </button>
             
