@@ -31,7 +31,7 @@ const Frame = () => {
               
 
               <a href="/#frame">
-                <div className="md:p-2 p-1 w-full relative md:-mt-[120px] 2xl:-mt-4">
+                <div className="md:p-2 p-1 w-full relative md:-mt-[120px] 2xl:-mt-3">
                   <div className="absolute w-full">
                     <img
                       alt="gallery"
@@ -77,7 +77,7 @@ const Frame = () => {
               </a>
 
               <a href="/#frame">
-                <div className="md:p-2 p-1 relative 2xl:mt-[184px]">
+                <div className="md:p-2 p-1 relative 2xl:mt-[181px]">
                   <div className="absolute w-full">
                     <img
                       alt="gallery"
