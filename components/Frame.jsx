@@ -3,14 +3,14 @@ import React from "react";
 const Frame = () => {
   return (
     <div>
-      <section className="text-gray-200">
-        <div className="px-10 py-24 lg:py-36 mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-20 md:gap-1 2xl:gap-8 md:-m-2 -m-1">
+      <section className="text-gray-200 relative block">
+        <div className="px-10 py-24 lg:py-36 mx-auto ">
+          <div className="grid md:grid-cols-2 gap-20 md:gap-1 2xl:gap-10 md:-m-2 -m-1">
 
-            <div className="grid gap-6 md:gap-0 2xl:gap-20">
-              <a href="/#frame">
+            <div className="grid md:grid-rows-2 gap-6 md:gap-1 2xl:gap-4 ">
                 <div className="md:p-2 p-1 relative">
-                  <div className="absolute">
+                <a href="/#frame">
+                  <div className="absolute w-full">
                     <img
                       alt="gallery"
                       className="w-full h-full object-cover object-center block inset-0"
@@ -26,12 +26,13 @@ const Frame = () => {
                       View More
                     </button>
                   </div>
+                  </a>
                 </div>
-              </a>
+              
 
               <a href="/#frame">
-                <div className="md:p-2 p-1 w-full relative 2xl:pt-5">
-                  <div className="absolute">
+                <div className="md:p-2 p-1 w-full relative md:-mt-28 2xl:mt-0">
+                  <div className="absolute w-full">
                     <img
                       alt="gallery"
                       className="w-full h-full object-cover object-center block inset-0"
@@ -51,10 +52,12 @@ const Frame = () => {
               </a>
             </div>
 
-            <div className="grid gap-20 md:gap-2">
+
+            {/* ----------right------ */}
+            <div className="grid md:grid-rows-2 gap-20 md:gap-5 2xl:gap-10">
               <a href="/#frame">
                 <div className="md:p-2 p-1 w-full relative">
-                  <div className="absolute">
+                  <div className="absolute w-full">
                     <img
                       alt="gallery"
                       className="w-full h-full object-cover object-center block inset-0"
@@ -74,8 +77,8 @@ const Frame = () => {
               </a>
 
               <a href="/#frame">
-                <div className="md:p-2 p-1 relative">
-                  <div className="absolute">
+                <div className="md:p-2 p-1 relative 2xl:mt-44">
+                  <div className="absolute w-full">
                     <img
                       alt="gallery"
                       className="w-full h-full object-cover object-center block inset-0"
