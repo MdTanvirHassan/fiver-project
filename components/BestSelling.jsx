@@ -22,6 +22,9 @@ const BestSelling = () => {
             768: {
               slidesPerView: 4,
             },
+            1440: {
+              slidesPerView: 5,
+            },
           }}
           centeredSlides={false}
           spaceBetween={50}
